@@ -1,13 +1,13 @@
 # CONTENTS OF THIS FILE
 ---------------------
 
-- [Introduction] (#introduction)
-- [Installation](#installation)
-- [Run] (#run)
+- Introduction
+- Installation
+- Run
 
 
 ## INTRODUCTION
-------------
+------------ 
 
 - Save multiple web pages as PDF with Background Graphics using selenium webdriver.
 
