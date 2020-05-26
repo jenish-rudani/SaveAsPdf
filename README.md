@@ -1,5 +1,4 @@
 # CONTENTS OF THIS FILE
----------------------
 
 - Introduction
 - Installation
@@ -7,13 +6,11 @@
 
 
 ## INTRODUCTION
------------- 
 
 - Save multiple web pages as PDF with Background Graphics using selenium webdriver.
 
 
 ## INSTALLATION
-------------
 
 ### Install webdriver
 
@@ -24,6 +21,7 @@ $ sudo apt install chromium-chromedriver
 ### Create a Virtual environment
 
 - I install all my virtual environments in ~/.envs directory
+
 
 > create virual environment named saveaspdfenv and activate it
 
@@ -55,7 +53,6 @@ $ python3 -m pip install -r requirements.txt
 
 
 ## Run
-----------------
 
 To use this application go into tests directory and run main.py, You can make changes into main.py according to your preference.
 
