@@ -8,7 +8,7 @@ Save multiple web pages as PDF with Background Graphics using selenium webdriver
 
 1. mkdir ~/.envs && cd ~/.envs 
 
-2. python3 -m venv saveapdfenv
+2. python3 -m venv saveaspdfenv
 
 3. source saveaspdfenv/bin/activate
 
