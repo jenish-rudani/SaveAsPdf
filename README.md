@@ -1,29 +1,65 @@
-# SaveAsPdf
+# CONTENTS OF THIS FILE
+---------------------
+
+- [Installation](#installation)
+- [Using the App] (#Using the App)
+- [License](#license)
+
+## INTRODUCTION
+------------
+
 Save multiple web pages as PDF with Background Graphics using selenium webdriver.
 
 
-# Create a Virtual environment
+## INSTALLATION
+------------
 
-## I install all my virtual environments in ~/.envs directory
+### Install webdriver
 
-1. mkdir ~/.envs && cd ~/.envs 
+```shell
+$ sudo apt install chromium-chromedriver
+```
 
-2. python3 -m venv saveaspdfenv
+### Create a Virtual environment
 
-3. source saveaspdfenv/bin/activate
+- I install all my virtual environments in ~/.envs directory
 
-4. cd ~/Documents
+> create virual environment named saveaspdfenv and activate it
 
-5. git clone https://github.com/JenishRudani98/SaveAsPdf.git
+```shell
+$ mkdir ~/.envs && cd ~/.envs 
 
-6. cd SaveAsPdf
+$ python3 -m venv saveaspdfenv
 
-7. pip install -r requirements.txt
+$ source saveaspdfenv/bin/activate
 
-8. sudo apt install chromium-chromedriver
+```
 
-9. cd tests
+### Clone
 
-## Make changes to main.py file as per your requirement
+- Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
 
-10. python3 main.py
+> Navigate into Documents directory and clone this repo
+```shell
+$ $ cd ~/Documents
+$ git clone https://github.com/JenishRudani98/SaveAsPdf.git
+$ cd SaveAsPdf
+```
+> install required modules 
+
+```shell
+$ python3 -m pip install -r requirements.txt
+```
+
+
+
+## Using the App
+----------------
+
+To use this application go into tests directory and run main.py, You can make changes into main.py according to your preference.
+
+```shell
+  $ cd tests
+
+  $ python3 main.py
+```
