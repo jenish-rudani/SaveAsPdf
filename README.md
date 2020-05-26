@@ -1,14 +1,15 @@
 # CONTENTS OF THIS FILE
 ---------------------
 
+- [Introduction] (#introduction)
 - [Installation](#installation)
-- [Using the App] (#Using the App)
-- [License](#license)
+- [Run] (#run)
+
 
 ## INTRODUCTION
 ------------
 
-Save multiple web pages as PDF with Background Graphics using selenium webdriver.
+- Save multiple web pages as PDF with Background Graphics using selenium webdriver.
 
 
 ## INSTALLATION
@@ -53,7 +54,7 @@ $ python3 -m pip install -r requirements.txt
 
 
 
-## Using the App
+## Run
 ----------------
 
 To use this application go into tests directory and run main.py, You can make changes into main.py according to your preference.
